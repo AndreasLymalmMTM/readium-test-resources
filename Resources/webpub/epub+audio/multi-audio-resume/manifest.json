@@ -1,0 +1,61 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "@type": "http://schema.org/Book",
+    "conformsTo": "https://readium.org/webpub-manifest/profiles/epub",
+    "identifier": "urn:readium:test:multi-audio-resume",
+    "title": "Narration resume across audio tracks",
+    "language": "en",
+    "duration": 36
+  },
+  "links": [
+    {
+      "href": "manifest.json",
+      "rel": "self",
+      "type": "application/webpub+json"
+    },
+    {
+      "href": "guided-navigation.json",
+      "type": "application/guided-navigation+json",
+      "duration": 36
+    }
+  ],
+  "readingOrder": [
+    {
+      "href": "chapter.xhtml",
+      "type": "application/xhtml+xml",
+      "title": "Shared chapter",
+      "duration": 36,
+      "alternate": [
+        {
+          "href": "guided-navigation.json",
+          "type": "application/guided-navigation+json",
+          "duration": 36
+        }
+      ]
+    }
+  ],
+  "toc": [
+    {
+      "href": "chapter.xhtml#chapter",
+      "title": "Shared chapter"
+    }
+  ],
+  "resources": [
+    {
+      "href": "first.mp3",
+      "type": "audio/mpeg",
+      "duration": 12
+    },
+    {
+      "href": "second.mp3",
+      "type": "audio/mpeg",
+      "duration": 12
+    },
+    {
+      "href": "third.mp3",
+      "type": "audio/mpeg",
+      "duration": 12
+    }
+  ]
+}
