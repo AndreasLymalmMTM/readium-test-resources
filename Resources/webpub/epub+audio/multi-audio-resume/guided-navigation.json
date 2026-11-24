@@ -1,0 +1,40 @@
+{
+  "guided": [
+    {
+      "textref": "chapter.xhtml#chapter",
+      "role": [
+        "section"
+      ],
+      "children": [
+        {
+          "audioref": "first.mp3#t=0,10",
+          "role": [
+            "paragraph"
+          ],
+          "textref": "chapter.xhtml#first"
+        },
+        {
+          "audioref": "first.mp3#t=10,12",
+          "role": [
+            "pagebreak"
+          ],
+          "textref": "chapter.xhtml#page"
+        },
+        {
+          "audioref": "second.mp3#t=0,12",
+          "role": [
+            "paragraph"
+          ],
+          "textref": "chapter.xhtml#second"
+        },
+        {
+          "audioref": "third.mp3#t=0,12",
+          "role": [
+            "paragraph"
+          ],
+          "textref": "chapter.xhtml#third"
+        }
+      ]
+    }
+  ]
+}
